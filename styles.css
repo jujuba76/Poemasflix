@@ -1,0 +1,59 @@
+body {
+    color: rgb(38, 248, 185);
+    background-color: rgb(241, 90, 90);
+    margin: 0px;
+    font-family: Chakra Petch,sans-serif;
+}
+
+header {
+    border-bottom: solid 2px rgb(2, 3, 1);
+    padding: 20px;
+    font-size: 52px;
+    color: rgb(7, 2, 7)
+}
+
+section {
+    background: rgb(2, 5, 8);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.poemas {
+    background-color: azure;
+    color: black;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid green;
+}
